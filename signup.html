@@ -1,0 +1,51 @@
+
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head><script src="/docs/5.3/assets/js/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.112.5">
+    <title>Newsletter Signup</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/sign-in/">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- Favicons -->
+<meta name="theme-color" content="#712cf9">
+
+
+    
+    <!-- Custom styles for this template -->
+    <link href="css/sign-in.css" rel="stylesheet"> <!--imagine we are inside public folder-->
+  </head>
+  <body class="d-flex align-items-center py-4 bg-body-tertiary">
+    
+
+    <main class="form-signin w-100 m-auto">
+      <img src="images/email-logo.png" alt="email-logo" width="100%">
+      <form action="/" method="post">
+        <h1 class="h3 mb-3 fw-normal">Signup to Newsletter!</h1>
+
+        <div class="form-floating">
+          <input type="text" class="form-control top" name="firstName" id="firstName" placeholder="First Name" required autofocus>
+          <label for="firstName" style="color: gray;">First Name</label>
+        </div>
+        <div class="form-floating">
+          <input type="text" class="form-control middle" name="lastName" id="lastName" placeholder="Last Name" required>
+          <label for="lastName" style="color: gray;">Last Name</label>
+        </div>
+        <div class="form-floating">
+          <input type="email" class="form-control bottom" name="email" id="email" placeholder="Email" required>
+          <label for="floatingEmail" style="color: gray;">Email</label>
+        </div>
+
+        <button class="btn btn-primary w-100 py-2" type="submit">Sign Up!</button>
+        <p class="mt-5 mb-3 text-body-secondary">&copy; 2017–2023</p>
+      </form>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+  </body>
+</html>

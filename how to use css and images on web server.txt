@@ -1,0 +1,3 @@
+To use css and images, we use "app.use(express.static("public"))" which allows us to access our html files as if
+we are accessing them from inside the public folder. Thus, by putting css files and images inside our public folder,
+we can access them using "css/styles.css" from inside the html page.
