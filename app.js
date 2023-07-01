@@ -1,6 +1,6 @@
 //FROM MAILCHIMP
 //mailchimp api key
-//c7fb1afeb8ed0b280374ffc8778f96e4-us21
+//762d31cf3201165d99bf01b93bb01a92-us21
 //list id
 //3990cd3e10
 
@@ -47,7 +47,7 @@ app.post("/", function(req, res){ //when there is a post request on home route
 
     const options = {
         method: "POST",
-        auth: "ammarS:c7fb1afeb8ed0b280374ffc8778f96e4-us21" //username(any string): password(api key) for authentication
+        auth: "ammarS:762d31cf3201165d99bf01b93bb01a92-us21" //username(any string): password(api key) for authentication
     }
 
     const request = https.request(url, options, function(response){ //we want to post our data to this url but unlike https.get (in weather app), there is no https.post so we use request
